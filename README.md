@@ -6,21 +6,6 @@ This project involves scraping Mars news articles and weather data, followed by 
 ## Project Structure
 The project consists of the following components:
 
-### Part 1: Scrape Titles and Preview Text from Mars News
-- Utilized automated browsing with Splinter and HTML parsing with Beautiful Soup to scrape Mars news articles.
-- Stored the scraped data in Python data structures.
-- Optionally exported the scraped data to a JSON file.
-
-### Part 2: Scrape and Analyze Mars Weather Data
-- Scraped Mars weather data from a specified website using Beautiful Soup.
-- Analyzed the data to answer various questions related to Martian weather conditions.
-- Visualized the analysis results using data visualization techniques.
-
-## Repository Structure
-- `part_1_mars_news.ipynb`: Jupyter Notebook containing code for scraping titles and preview text from Mars news articles.
-- `part_2_mars_weather.ipynb`: Jupyter Notebook containing code for scraping and analyzing Mars weather data.
-- `Mars_Data.csv`: CSV file of the weather data used in the second part of the assignment.
-
 ## Part 1: Scrape Titles and Preview Text from Mars News
 In this section, the titles and preview text of Mars news articles were scraped from a specified website. The following steps were followed:
 
@@ -37,6 +22,11 @@ This section involved scraping and analyzing Mars weather data from a specific w
 - Analyzed the data to answer various questions related to Martian weather conditions.
 - Visualized the analysis results using data visualization techniques.
 - Exported the DataFrame to a CSV file for further reference.
+
+## Repository Structure
+- `part_1_mars_news.ipynb`: Jupyter Notebook containing code for scraping titles and preview text from Mars news articles.
+- `part_2_mars_weather.ipynb`: Jupyter Notebook containing code for scraping and analyzing Mars weather data.
+- `Mars_Data.csv`: CSV file of the weather data used in the second part of the assignment.
 
 ## Tools Used
 - Python
